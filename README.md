@@ -5,8 +5,11 @@ The /proc/acpi/wakeup file can be edited directly, but your modification won't s
 
 ## Tested and working on
 -Debian Stretch
+
 -Debian Buster
+
 -ArchLinux
+
 -Ubuntu 18.04 LTS
 
 (Basically it should work on every systemd based distrib)
