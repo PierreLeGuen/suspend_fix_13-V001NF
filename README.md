@@ -1,7 +1,7 @@
 # suspend_fix_13-V001NF
 ## Whats happening 
-The Spectre 13 has a strange behavior with suspend under Linux. The power button blocks the suspend.
-The /proc/acpi/wakeup file can be edited directly, but your modification won't stay. The service is here to disable it definitely.
+The Spectre 13 have a strange behavior with suspend under Linux. The power button blocks the suspend.
+The /proc/acpi/wakeup file can't be edited directly, your modification won't stay. The service is here to disable it definitely.
 
 ## Tested and working on
 -Debian Stretch
