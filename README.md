@@ -12,6 +12,8 @@ The /proc/acpi/wakeup file can't be edited directly, your modification won't sta
 
 -Ubuntu 18.04 LTS
 
+-Manjaro 18
+
 (Basically it should work on every systemd based distrib)
 
 ## Installation
@@ -27,7 +29,7 @@ sudo shutdown -r now
 ## How to check if it works
 
 <pre><code>
-sudo nano /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep PWRB
 </code></pre>
 
 The line with PWRB should be "disabled"
